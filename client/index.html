@@ -80,15 +80,7 @@
     </table>
 
     <script src="app/domain/negociacao/Negociacao.js"></script>
-      <script>
-          let hoje = new Date();
-          let n1 = new Negociacao(hoje, 5, 700);
-          console.log(Object.isFrozen(n1));
-          console.log(n1.volume);
-          console.log(n1.data);
-          console.log(n1.quantidade);
-          console.log(n1.valor);
-      </script>
+    <script src="app/controllers/NegociacaoController.js"></script>
+    <script src="app/app.js"></script>
   </body>
 </html>
-
